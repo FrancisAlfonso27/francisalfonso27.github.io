@@ -478,11 +478,18 @@ footer {
 }
 
 @media (max-width: 600px) {
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .hamburger {
         display: block;
         font-size: 1.5rem;
         color: var(--text-color);
         cursor: pointer;
+        margin-left: auto;
     }
 
     .nav-links {
